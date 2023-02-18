@@ -69,7 +69,7 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "first-angular-project:build:production"
+              "browserTarget": "first-angular-project:build:development"
             },
             "development": {
               "browserTarget": "first-angular-project:build:development"
@@ -103,8 +103,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "5a18a758-a4d7-493d-9e9c-e7fcfc72425c"
   }
 }
